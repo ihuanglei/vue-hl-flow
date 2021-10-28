@@ -1,0 +1,29 @@
+{
+  "name": "vue-hl-flow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "unpkg": "dist/index.unpkg.js",
+  "scripts": {
+    "build": "rm -rf ./dist && NODE_ENV=production rollup -c"
+  },
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "butterfly-dag": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-transform-runtime": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "butterfly-dag": "^4.1.12",
+    "rollup": "^2.58.3",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-vue": "^5.1.9",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
